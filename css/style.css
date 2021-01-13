@@ -1,0 +1,236 @@
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --white-text-bg-color: #ffffff;
+  --link-text-color: #2196f3;
+  --bg-color-footer: #2f303a;
+  --btn-portfolio-bgc-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--white-text-bg-color);
+  color: var(--main-text-color);
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 1px solid tomato;
+}
+ul,
+p,
+h2,
+h3,
+a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* header */
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--title-text-color);
+  font-style: normal;
+}
+.link:hover,
+.link:focus {
+  color: var(--link-text-color);
+  text-decoration: none;
+}
+.web-studio {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+.web-studio .web {
+  color: var(--link-text-color);
+}
+
+.address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-style: normal;
+}
+.address.top:hover,
+.address.top:focus {
+  color: var(--link-text-color);
+}
+.current {
+  color: var(--link-text-color);
+}
+/* hero */
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-bg-color);
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.button {
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--white-text-bg-color);
+  background-color: var(--link-text-color);
+  border-radius: 4px;
+
+  display: inline-block;
+  padding: 10px 32px;
+  min-width: 200px;
+}
+/* features */
+.features .container {
+  padding-top: 102px;
+  padding-bottom: 94px;
+}
+.features .title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-text-color);
+  margin-bottom: 10px;
+}
+/* occupation */
+.main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--title-text-color);
+
+  text-align: center;
+  margin-bottom: 50px;
+}
+.occupation .container {
+  padding-bottom: 92px;
+}
+
+/* our team */
+.our-team {
+  background-color: var(--btn-portfolio-bgc-color);
+}
+.our-team .container {
+  padding: 92px 15px 92px 15px;
+}
+.team-list {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  text-align: center;
+
+  background-color: var(--white-text-bg-color);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--title-text-color);
+  margin-top: 30px;
+  margin-bottom: 9px;
+}
+.job {
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 30px;
+
+  display: inline-block;
+}
+/* footer */
+.footer {
+  background-color: var(--bg-color-footer);
+}
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer.studio {
+  color: var(--white-text-bg-color);
+}
+.address.map {
+  color: var(--white-text-bg-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.footer .web-studio {
+  display: inline-block;
+  margin-bottom: 9px;
+}
+/* portfolio page */
+.capabilities {
+  padding-top: 92px;
+  padding-bottom: 92px;
+  border-top: 1px solid #ececec;
+}
+.btn {
+  display: inline-block;
+  min-width: 73px;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 1px solid transparent;
+  text-align: center;
+  margin-bottom: 50px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--title-text-color);
+  background-color: var(--btn-portfolio-bgc-color);
+}
+.btn:hover,
+.btn:focus {
+  color: var(--white-text-bg-color);
+  background-color: var(--link-text-color);
+}
+.port-link {
+  text-decoration: none;
+}
+.port-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--title-text-color);
+
+  margin: 20px 24px 9px 24px;
+}
+.port-text {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--main-text-color);
+
+  margin: 0 24px 20px 24px;
+}
+.port-list {
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
+  width: 370px;
+}
