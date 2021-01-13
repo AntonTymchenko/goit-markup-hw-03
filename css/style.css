@@ -108,7 +108,7 @@ a {
   min-width: 200px;
 }
 /* features */
-.features .container {
+.features {
   padding-top: 102px;
   padding-bottom: 94px;
 }
@@ -130,7 +130,7 @@ a {
   text-align: center;
   margin-bottom: 50px;
 }
-.occupation .container {
+.occupation {
   padding-bottom: 92px;
 }
 
@@ -138,8 +138,9 @@ a {
 .our-team {
   background-color: var(--btn-portfolio-bgc-color);
 }
-.our-team .container {
-  padding: 92px 15px 92px 15px;
+.our-team {
+  padding-top: 92px;
+  padding-bottom: 92px;
 }
 .team-list {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -169,7 +170,7 @@ a {
 .footer {
   background-color: var(--bg-color-footer);
 }
-.footer .container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
