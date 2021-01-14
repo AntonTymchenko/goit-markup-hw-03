@@ -317,9 +317,3 @@ a {
 .port-list:nth-child(n + 7) {
   margin-bottom: 0;
 }
-
-.port-list img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
