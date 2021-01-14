@@ -5,6 +5,8 @@
   --link-text-color: #2196f3;
   --bg-color-footer: #2f303a;
   --btn-portfolio-bgc-color: #f5f4fa;
+  --border-color-capabilities: #ececec;
+  --border-color-port-list: #eeeeee;
 }
 
 body {
@@ -191,7 +193,7 @@ a {
 .capabilities {
   padding-top: 92px;
   padding-bottom: 92px;
-  border-top: 1px solid #ececec;
+  border-top: 1px solid var(--border-color-capabilities);
 }
 .btn {
   display: inline-block;
@@ -231,7 +233,7 @@ a {
   margin: 0 24px 20px 24px;
 }
 .port-list {
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--border-color-port-list);
   margin-bottom: 30px;
   width: 370px;
 }
