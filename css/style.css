@@ -335,7 +335,6 @@ a {
   color: var(--main-text-color);
 }
 .port-list {
-  border: 1px solid var(--border-color-port-list);
   width: 370px;
   margin: 15px;
 }
@@ -343,6 +342,10 @@ a {
   margin-bottom: 0;
 }
 .gallery-title-text {
+  border-bottom: 1px solid var(--border-color-port-list);
+  border-left: 1px solid var(--border-color-port-list);
+  border-right: 1px solid var(--border-color-port-list);
+
   margin: 0;
   padding: 20px 24px;
 }
