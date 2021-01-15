@@ -249,7 +249,7 @@ a {
 .team-list + .team-list {
   margin-left: 30px;
 }
-/* footer */
+/*================== footer ===============*/
 .footer {
   background-color: var(--bg-color-footer);
 }
@@ -278,7 +278,7 @@ a {
   margin-bottom: 9px;
 }
 
-/* portfolio page */
+/*============ portfolio page ===========*/
 .container.gallery-menu-container {
   padding-top: 92px;
   padding-bottom: 92px;
