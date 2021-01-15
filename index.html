@@ -6,7 +6,7 @@
     <title>Home work</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -17,8 +17,8 @@
   </head>
   <body>
     <header>
+      <!--HEADER-->
       <div class="container main-nav">
-        <!--Шапка страницы и навигация-->
         <nav class="site-nav">
           <a href="./index.html" class="web-studio"
             >Web<span class="studio">Studio</span></a
@@ -50,13 +50,16 @@
       </div>
     </header>
     <main>
-      <!--Основной контент-->
+      <!-- HERO-->
       <section class="hero">
-        <!-- HERO-->
-        <h1 lang="ru" class="hero-title">
-          ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
-        </h1>
-        <button type="button" lang="ru" class="button">Заказать услугу</button>
+        <div class="hero-division">
+          <h1 lang="ru" class="hero-title">
+            ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
+          </h1>
+          <button type="button" lang="ru" class="button">
+            Заказать услугу
+          </button>
+        </div>
       </section>
       <!--featurs-->
       <section class="features">
@@ -118,13 +121,17 @@
           <ul class="our-team-member">
             <li class="team-list">
               <img src="./img/igor.jpg" width="270" alt="игорь" />
-              <h3 lang="ru" class="name">Игорь Демьяненко</h3>
-              <p lang="ru" class="job">Product Designer</p>
+              <div class="name-jobe-info">
+                <h3 lang="ru" class="name">Игорь Демьяненко</h3>
+                <p lang="ru" class="job">Product Designer</p>
+              </div>
             </li>
             <li class="team-list">
               <img src="./img/olga.jpg" width="270" alt="ольга" />
-              <h3 lang="ru" class="name">Ольга Репина</h3>
-              <p lang="ru" class="job">Frontend Developer</p>
+              <div class="name-jobe-info">
+                <h3 lang="ru" class="name">Ольга Репина</h3>
+                <p lang="ru" class="job">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-list">
               <img
@@ -133,13 +140,17 @@
                 height="260"
                 alt="николай"
               />
-              <h3 lang="ru" class="name">Николай Тарасов</h3>
-              <p class="job">Marketing</p>
+              <div class="name-jobe-info">
+                <h3 lang="ru" class="name">Николай Тарасов</h3>
+                <p class="job">Marketing</p>
+              </div>
             </li>
             <li class="team-list">
               <img src="./img/mosha.jpg" width="270" alt="михаил" />
-              <h3 lang="ru" class="name">Михаил Ермаков</h3>
-              <p class="job">UI Designer</p>
+              <div class="name-jobe-info">
+                <h3 lang="ru" class="name">Михаил Ермаков</h3>
+                <p class="job">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -154,7 +165,7 @@
           <p class="address map">г. Киев, пр-т Леси Украинки, 26</p>
           <ul>
             <li>
-              <a href="mailto:info@example.com" class="address"
+              <a href="mailto:info@example.com" class="address mail"
                 >info@example.com</a
               >
             </li>

@@ -17,7 +17,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.714;
   letter-spacing: 0.03em;
 }
 .container {
@@ -39,6 +39,9 @@ a {
   padding: 0;
 }
 /* header */
+.header {
+  border-bottom: 1px solid var(--border-color-capabilities);
+}
 .main-nav {
   display: flex;
   align-items: baseline;
@@ -85,7 +88,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.23;
   text-decoration: none;
   color: var(--link-text-color);
 
@@ -97,7 +100,7 @@ a {
 .address {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.42;
   color: var(--main-text-color);
   text-decoration: none;
   font-style: normal;
@@ -119,10 +122,14 @@ a {
   background-color: #2f303a;
   text-align: center;
 }
+.hero-division {
+  padding-top: 208px;
+  padding-bottom: 192px;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: 1.41;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-bg-color);
@@ -133,7 +140,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.87;
   cursor: pointer;
 
   color: var(--white-text-bg-color);
@@ -186,16 +193,19 @@ a {
 .occupation-list {
   display: flex;
 }
+.occupation-list-item {
+  width: 370px;
+  height: 294px;
+}
 .occupation-list-item + .occupation-list-item {
   margin-left: 30px;
 }
-/* our team */
-.our-team {
-  background-color: var(--btn-portfolio-bgc-color);
-}
+/* ==============our team ===============*/
+
 .our-team {
   padding-top: 92px;
   padding-bottom: 92px;
+  background-color: var(--btn-portfolio-bgc-color);
 }
 .team-list {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -206,20 +216,27 @@ a {
 
   background-color: var(--white-text-bg-color);
 }
+.team-list img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.name-jobe-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--title-text-color);
-  margin-top: 30px;
-  margin-bottom: 9px;
+
+  display: inline-block;
+  margin-bottom: 10px;
 }
 .job {
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 30px;
-
-  display: inline-block;
 }
 .our-team-member {
   display: flex;
@@ -242,17 +259,24 @@ a {
   color: var(--white-text-bg-color);
   font-style: normal;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
+
+  display: block;
+  margin-bottom: 9px;
 }
 .footer .web-studio {
   display: inline-block;
   margin-bottom: 9px;
 }
+.address.mail {
+  display: block;
+  margin-bottom: 9px;
+}
+
 /* portfolio page */
-.capabilities {
+.container.gallery-menu-container {
   padding-top: 92px;
   padding-bottom: 92px;
-  border-top: 1px solid var(--border-color-capabilities);
 }
 .capabilities-list {
   display: flex;
@@ -274,7 +298,7 @@ a {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.62;
   color: var(--title-text-color);
   background-color: var(--btn-portfolio-bgc-color);
 }
@@ -299,15 +323,11 @@ a {
   font-weight: 700;
   font-size: 18px;
   color: var(--title-text-color);
-
-  margin: 20px 24px 9px 24px;
 }
 .port-text {
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.87;
   color: var(--main-text-color);
-
-  margin: 0 24px 20px 24px;
 }
 .port-list {
   border: 1px solid var(--border-color-port-list);
@@ -316,4 +336,13 @@ a {
 }
 .port-list:nth-child(n + 7) {
   margin-bottom: 0;
+}
+.gallery-title-text {
+  margin: 0;
+  padding: 20px 24px;
+}
+.port-list img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
