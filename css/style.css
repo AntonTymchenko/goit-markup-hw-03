@@ -134,6 +134,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
+  cursor: pointer;
 
   display: inline-block;
   padding: 10px 32px;
@@ -260,6 +261,7 @@ img {
   margin-bottom: 9px;
 
   color: #ffffff;
+  font-style: normal;
 }
 .contact-info {
   color: rgba(255, 255, 255, 0.6);
@@ -290,6 +292,7 @@ img {
   outline: none;
   min-width: 73px;
   border: 1px solid transparent;
+  cursor: pointer;
 
   display: inline-block;
   padding: 6px 22px;
